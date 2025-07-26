@@ -7,6 +7,9 @@ function addTask() {
   const li = document.createElement('li');
   li.textContent = task;
 
+
+  
+
   li.onclick = () => li.remove(); // Click to remove
   document.getElementById('taskList').appendChild(li);
 
